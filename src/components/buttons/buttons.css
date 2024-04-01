@@ -2,6 +2,13 @@
     padding: 15px 30px;
     margin-right: 20px;
     border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    transition: 0.3s ease-in;
+}
+
+.buttons .button:hover{
+    opacity: 80%;
 }
 
 .ios{
