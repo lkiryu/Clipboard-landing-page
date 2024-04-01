@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "../header/header";
+import SectionKeepTrack from "../sectionKeepTrack/sectionKeepTrack";
 
 const LandingPage = () => {
-    return(
+    return (
         <div className="container">
-            <Header/>
+            <Header />
 
-            
+            <SectionKeepTrack />
         </div>
     )
 }
