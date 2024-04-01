@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../../images/logo.svg'
+import Buttons from "../buttons/buttons";
 
 const Header = () => {
     return (
@@ -10,10 +11,8 @@ const Header = () => {
             <h1 className="title">A history of everything you copy</h1>
             <p className="description">Clipboard allows you to track and organize everything you
                 copy. Instantly access your clipboard on all your devices.</p>
-            <div className="buttons">
-                <a href="/" className="button ios">Download for iOS</a>
-                <a href="/" className="button mac">Download for Mac</a>
-            </div>
+                
+            <Buttons />
         </header>
     )
 }

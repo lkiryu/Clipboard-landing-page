@@ -3,6 +3,7 @@ import Header from "../header/header";
 import SectionKeepTrack from "../sectionKeepTrack/sectionKeepTrack";
 import SectionAccess from "../sectionAccess/sectionAccess";
 import SectionSupercharge from "../sectionSupercharge/sectionSupercharge";
+import SectionClipboard from "../sectionClipboard/sectionClipboard";
 
 const LandingPage = () => {
     return (
@@ -14,6 +15,8 @@ const LandingPage = () => {
             <SectionAccess />
 
             <SectionSupercharge />
+
+            <SectionClipboard />
         </div>
     )
 }
