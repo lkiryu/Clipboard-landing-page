@@ -15,7 +15,7 @@ const SectionSupercharge = () => {
         <section className="supercharge">
             <h2 className="title">Supercharge your workflow</h2>
             <p className="description">We’ve got the tools to boost your productivity.</p>
-            <div class="examples">
+            <div className="examples">
                 <ul>
                     <li>
                         <img src={iconBlacklist} alt="Blacklist"></img>

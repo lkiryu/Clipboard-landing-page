@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+}
+
+.footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.footer img{
+    width: 60px;
+}
+
+.footer .links{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.links ul li{
+    margin-bottom: 20px;
+    color: hsl(210, 10%, 33%);
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+}
