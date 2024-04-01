@@ -1,0 +1,16 @@
+.buttons .button{
+    padding: 15px 30px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: 4px solid hsl(171, 60%, 40%);
+}
+
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 4px solid hsl(233, 90%, 60%);
+    margin-right: 0;
+}

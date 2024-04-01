@@ -4,6 +4,7 @@ import SectionKeepTrack from "../sectionKeepTrack/sectionKeepTrack";
 import SectionAccess from "../sectionAccess/sectionAccess";
 import SectionSupercharge from "../sectionSupercharge/sectionSupercharge";
 import SectionClipboard from "../sectionClipboard/sectionClipboard";
+import Footer from "../footer/footer";
 
 const LandingPage = () => {
     return (
@@ -17,6 +18,8 @@ const LandingPage = () => {
             <SectionSupercharge />
 
             <SectionClipboard />
+
+            <Footer />
         </div>
     )
 }
