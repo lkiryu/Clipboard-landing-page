@@ -1,0 +1,20 @@
+.clipboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.clipboard .title{
+    font-size: 32px;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+
+.clipboard .description{
+    color: hsl(201, 11%, 66%);
+    width: 700px;
+    text-align: center;
+    margin-bottom: 60px;
+}
