@@ -1,0 +1,44 @@
+.keep-track{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    width: 100%;
+}
+
+.keep-track .title{
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+
+.keep-track .description{
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 40px;
+    width: 700px;
+    text-align: center;
+}
+
+.keep-track .info{
+    display: flex;
+    align-items: center;
+}
+
+.keep-track .info img{
+    margin-right: 100px;
+}
+
+.keep-track .info ul{
+    width: 380px;
+}
+
+ul h3{
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+
+ul p{
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+    margin-bottom: 40px;
+}

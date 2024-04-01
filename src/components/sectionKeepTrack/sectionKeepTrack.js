@@ -1,4 +1,7 @@
 import React from "react";
+import computers from '../../images/image-computer.png'
+
+import './sectionKeepTrack.css'
 
 const SectionKeepTrack = () => {
     return (
@@ -8,6 +11,8 @@ const SectionKeepTrack = () => {
                 meaning you can access your snippets immediately on all your
                 devices. Our Mac and iOS apps will help you organize everything.</p>
             <div className="info">
+                <img src={computers} alt="computers"></img>
+
                 <ul>
                     <li>
                         <h3>Quick Search</h3>
