@@ -8,10 +8,12 @@ import iconMicrosoft from '../../images/logo-microsoft.png'
 import iconHp from '../../images/logo-hp.png'
 import iconVectorGraphics from '../../images/logo-vector-graphics.png'
 
+import './sectionSupercharge.css'
+
 const SectionSupercharge = () => {
     return (
         <section className="supercharge">
-            <h2>Supercharge your workflow</h2>
+            <h2 className="title">Supercharge your workflow</h2>
             <p className="description">We’ve got the tools to boost your productivity.</p>
             <div class="examples">
                 <ul>

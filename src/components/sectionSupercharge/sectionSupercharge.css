@@ -1,0 +1,44 @@
+.supercharge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.supercharge .title{
+    color: hsl(210, 10%, 33%);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.supercharge .description{
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 60px;
+}
+
+.examples ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.examples ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+}
+
+.examples img{
+    margin-bottom: 30px;
+    height: 40px;
+}
+
+.supercharge .brands{
+    display: flex;
+    justify-content: space-between;
+}
