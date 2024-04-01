@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../header/header";
 import SectionKeepTrack from "../sectionKeepTrack/sectionKeepTrack";
+import SectionAccess from "../sectionAccess/sectionAccess";
 
 const LandingPage = () => {
     return (
@@ -8,6 +9,8 @@ const LandingPage = () => {
             <Header />
 
             <SectionKeepTrack />
+
+            <SectionAccess />
         </div>
     )
 }
