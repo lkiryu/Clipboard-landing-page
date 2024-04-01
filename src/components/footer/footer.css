@@ -1,4 +1,4 @@
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,17 +7,17 @@
     width: 100%;
 }
 
-.footer .footer-content{
+.footer .footer-content {
     display: flex;
     justify-content: space-between;
     width: 70vw;
 }
 
-.footer img{
+.footer img {
     width: 60px;
 }
 
-.footer .links{
+.footer .links {
     display: flex;
     justify-content: space-between;
     width: 40%;
@@ -25,12 +25,47 @@
 
 .links ul li{
     margin-bottom: 20px;
-    color: hsl(210, 10%, 33%);
 }
 
-.social{
+.links ul li a{
+    color: hsl(210, 10%, 33%);
+    transition: 0.3s ease-in;
+}
+
+.links ul li a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.links ul li a {
+    position: relative;
+}
+
+.links ul li a::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background-color: hsl(171, 66%, 44%);
+    transition: width 0.2s;
+}
+
+.links ul li a:hover::after {
+    width: 100%;
+}
+
+.social {
     display: flex;
     gap: 20px;
     font-size: 30px;
     color: hsl(210, 10%, 33%);
+}
+
+.social a {
+    transition: 0.3s ease-in;
+}
+
+.social a:hover {
+    color: hsl(171, 66%, 44%);
 }
