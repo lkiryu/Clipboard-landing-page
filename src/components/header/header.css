@@ -22,3 +22,26 @@
     width: 650px;
     margin-bottom: 60px;
 }
+
+@media(max-width:800px){
+    .header{
+        margin: 150px 0 100px;
+    }
+}
+
+@media(max-width:500px){
+    .header{
+        margin: 50px 0;
+    }
+
+    .header .title{
+        font-size: 30px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .header .description{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}

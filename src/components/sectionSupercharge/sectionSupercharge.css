@@ -1,4 +1,4 @@
-.supercharge{
+.supercharge {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,25 +6,25 @@
     margin-bottom: 150px;
 }
 
-.supercharge .title{
+.supercharge .title {
     color: hsl(210, 10%, 33%);
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-.supercharge .description{
+.supercharge .description {
     color: hsl(201, 11%, 66%);
     margin-bottom: 60px;
 }
 
-.examples ul{
+.examples ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 50px;
 }
 
-.examples ul li{
+.examples ul li {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -33,12 +33,46 @@
     width: 400px;
 }
 
-.examples img{
+.examples img {
     margin-bottom: 30px;
     height: 40px;
 }
 
-.supercharge .brands{
+.supercharge .brands {
     display: flex;
     justify-content: space-between;
+}
+
+@media(max-width:1440px) {
+    .examples ul li {
+        width: 350px;
+    }
+}
+
+@media(max-width:1200px) {
+    .examples ul li {
+        width: 290px;
+    }
+}
+
+@media(max-width:800px) {
+    .supercharge {
+        margin-bottom: 50px;
+    }
+
+    .examples ul,
+    .supercharge .brands {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:500px) {
+
+    .supercharge .title,
+    .supercharge .description {
+        width: 300px;
+        text-align: center;
+    }
 }

@@ -21,3 +21,11 @@
     border-bottom: 4px solid hsl(233, 90%, 60%);
     margin-right: 0;
 }
+
+@media(max-width:500px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -1,4 +1,4 @@
-.access{
+.access {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,14 +6,38 @@
     margin-bottom: 100px;
 }
 
-.access .title{
+.access .title {
     color: hsl(210, 10%, 33%);
     margin-bottom: 20px;
 }
 
-.access .description{
+.access .description {
     color: hsl(201, 11%, 66%);
     width: 700px;
     text-align: center;
     margin-bottom: 60px;
+}
+
+@media(max-width:800px) {
+    .access {
+        margin-bottom: 50px;
+    }
+
+    .access .description,
+    .access img {
+        width: 600px;
+    }
+}
+
+@media(max-width:500px) {
+
+    .access .title,
+    .access .description,
+    .access img {
+        width: 300px;
+    }
+
+    .access .title{
+        text-align: center;
+    }
 }
