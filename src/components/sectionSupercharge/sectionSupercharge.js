@@ -1,11 +1,6 @@
 import React from "react";
 import SuperchargeInfo from "../superchargeInfo/superchargeInfo";
-
-import iconGoogle from '../../images/logo-google.png'
-import iconIbm from '../../images/logo-ibm.png'
-import iconMicrosoft from '../../images/logo-microsoft.png'
-import iconHp from '../../images/logo-hp.png'
-import iconVectorGraphics from '../../images/logo-vector-graphics.png'
+import Brand from "../brand/brand";
 
 import './sectionSupercharge.css'
 
@@ -24,6 +19,29 @@ const infoData = [
         src: "./images/icon-text.svg",
         title: "Sneak preview",
         description: "Quick preview of all snippets on your Clipboard for easy access.",
+    },
+]
+
+const brandData = [
+    {
+        src: "./images/logo-google.png",
+        alt: "icon google",
+    },
+    {
+        src: "./images/logo-ibm.png",
+        alt: "icon ibm",
+    },
+    {
+        src: "./images/logo-microsoft.png",
+        alt: "icon microsoft",
+    },
+    {
+        src: "./images/logo-hp.png",
+        alt: "icon hp",
+    },
+    {
+        src: "./images/logo-vector-graphics.png",
+        alt: "icon vector graphics",
     },
 ]
 
@@ -48,11 +66,17 @@ const SectionSupercharge = () => {
                     }
                 </ul>
                 <div className="brands">
-                    <img src={iconGoogle} alt="icon google"></img>
-                    <img src={iconIbm} alt="icon ibm"></img>
-                    <img src={iconMicrosoft} alt="icon microsoft"></img>
-                    <img src={iconHp} alt="icon hp"></img>
-                    <img src={iconVectorGraphics} alt="icon vector graphics"></img>
+                    {
+                        brandData.map((item, index)=>{
+                            return(
+                                <Brand 
+                                    key={index}
+                                    src={item.src}
+                                    alt={item.alt}
+                                />
+                            )
+                        })
+                    }
                 </div>
             </div>
         </section>
