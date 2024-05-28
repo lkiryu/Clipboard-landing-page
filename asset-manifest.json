@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Clipboard-landing-page/static/css/main.bba183e9.css",
+    "main.js": "/Clipboard-landing-page/static/js/main.e14d5b76.js",
+    "static/media/image-computer.png": "/Clipboard-landing-page/static/media/image-computer.65db67db202be4e74616.png",
+    "static/media/bg-header-desktop.png": "/Clipboard-landing-page/static/media/bg-header-desktop.3d39ff8e4eec581d1f91.png",
+    "static/media/image-devices.png": "/Clipboard-landing-page/static/media/image-devices.7a9f93355333984b7941.png",
+    "index.html": "/Clipboard-landing-page/index.html",
+    "static/media/logo.svg": "/Clipboard-landing-page/static/media/logo.99709bee9527fac7b703e0053be7feda.svg",
+    "main.bba183e9.css.map": "/Clipboard-landing-page/static/css/main.bba183e9.css.map",
+    "main.e14d5b76.js.map": "/Clipboard-landing-page/static/js/main.e14d5b76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bba183e9.css",
+    "static/js/main.e14d5b76.js"
+  ]
+}
